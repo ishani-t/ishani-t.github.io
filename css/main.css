@@ -70,12 +70,13 @@ section h1 {
 }
 #home {
     background-image: url("../assets/chicago.jpg");
+    opacity: 0.8;
     background-attachment: fixed;
     background-position: center;
     position: relative;
 }
 #home .profile-card {
-    background-color: rgba(230, 220, 220, .85);
+    background-color: rgba(230, 220, 220, 0.9);
     margin: auto;
     padding: 5vh;
     width: 80%;
@@ -279,6 +280,7 @@ section h1 {
 }
 #filler-image {
     background-image: url("../assets/chicago.jpg");
+    opacity: 0.5;
     background-attachment: fixed;
     background-position: center;
 }
